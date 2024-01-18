@@ -1,4 +1,36 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Reddin.me'
 theme = 'Mainroad-reddin'
+
+[Author]
+    name = "Will Reddin"
+    bio = "Will has many interest."
+    avatar = "img/jwt_1.png"
+
+[Params]
+    description = "A place on the internet for Will Reddin"
+    authorbox = true
+    twitter_cards = true
+
+[Params.logo]
+    image = "img/jwt_1.png"
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.sidebar]
+    home = "left"
+    list = "left"
+    single = "left"
+    widgets = ["recent", "taglist", "social"]
+
+[Params.widgets.social]
+    linkedin = "williamreddin"
+    github = "willreddin"
