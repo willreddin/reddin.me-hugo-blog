@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://'
 languageCode = 'en-us'
 title = 'Reddin.me'
 theme = 'Mainroad-reddin'
