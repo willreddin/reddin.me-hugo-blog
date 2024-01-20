@@ -7,7 +7,11 @@ draft = true
 ## Mermaid
 Using [this help post](https://discourse.gohugo.io/t/correct-way-to-embed-mermaid-js/43491/11) I'll try and add mermaid diagrams to this blog.
 
+Themes can also be set for the diagrams by adding in `%%{init: {'theme':'[theme.name]'}}%%` to the code block
+
 ```mermaid
+%%{init: {'theme':'forest'}}%%
+
 sequenceDiagram
     participant Alice
     participant Bob
@@ -20,6 +24,23 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
+```mermaid
+%%{init: {'theme':'dark'}}%%
+
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+
 
 ## GoAT diagrams
 [GoAT](https://github.com/bep/goat) diagrams are supported natively, which is great!
