@@ -1,7 +1,7 @@
 +++
 title = 'Adding Mermaid and other Diagrams'
 date = 2024-01-20T20:24:18Z
-draft = true
+draft = false
 +++
 
 ## Mermaid

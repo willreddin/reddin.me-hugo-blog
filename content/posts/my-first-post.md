@@ -1,7 +1,7 @@
 +++
 title = 'My First Post'
 date = 2024-01-18T11:46:24Z
-draft = true
+draft = false
 tags = ['hello-world']
 +++
 
