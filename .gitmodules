@@ -5,3 +5,5 @@
 	path = [themes/Mainroad-reddin]
 	url = https://github.com/willreddin/Mainroad-reddin
 	branch = main
+[submodule "theme/Mainroad-reddin"]
+	update = rebase
