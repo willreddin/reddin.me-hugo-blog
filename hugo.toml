@@ -12,6 +12,7 @@ theme = 'Mainroad-reddin'
     description = "A place on the internet for Will Reddin"
     authorbox = true
     twitter_cards = true
+    googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
 
 [Params.logo]
     image = "img/jwt_1.png"
@@ -21,7 +22,7 @@ theme = 'Mainroad-reddin'
 
   # Override font-family sets
   # Take care of different quotes OR escaping symbols in these params if necessary
-  fontFamilyPrimary = "'Nanum Gothic Coding', monospace"
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
   # Secondary font-family set responsible for pre, code, kbd, and samp tags font
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
