@@ -75,3 +75,27 @@ This [tool](https://arthursonzogni.com/Diagon/#Math) allows you to create all ki
 \k/   k! . (n - k)!
 
 ```
+
+This tool also allows you to create graph diagrams in ascii format like the example 
+
+```goat
+┌────────┐                     
+│weblayer│                     
+└┬─┬─┬───┘                     
+ │ │┌▽────────────────────────┐
+ │ ││chrome                   │
+ │ │└┬─────┬─────────────────┬┘
+ │┌▽─▽────┐│                 │ 
+ ││content││                 │ 
+ │└┬─┬─┬──┘│                 │ 
+ │ │ │┌▽───▽──────────────┐  │ 
+ │ │ ││blink              │  │ 
+ │ │ │└┬──┬───┬─┬───┬───┬─┘  │ 
+ │ │┌▽─▽┐┌▽──┐│┌▽─┐┌▽─┐┌▽───┐│ 
+ │ ││net││WTF│││v8││CC││skia││ 
+ │ │└┬──┘└┬──┘│└──┘└──┘└────┘│ 
+┌▽─▽─▽────▽───▽──────────────▽┐
+│base                         │
+└─────────────────────────────┘
+
+```
