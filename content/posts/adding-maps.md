@@ -2,7 +2,7 @@
 title = 'Adding maps from github gists'
 date = 2024-01-24T14:29:24Z
 draft = false
-tags = ['hello-world, 'maps'] 
+tags = ['hello-world', 'maps'] 
 +++
 
 ## Creating a map in a Gtihub gist using geojson data
