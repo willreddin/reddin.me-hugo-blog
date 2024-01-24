@@ -1,4 +1,4 @@
 [submodule "themes/Mainroad-reddin"]
-	path = ["themes/Mainroad-reddin"]
-	url = https://github.com/willreddin/Mainroad-reddin
+	path = themes/Mainroad-reddin
+	url = 'https://github.com/willreddin/Mainroad-reddin'
 	branch = main
