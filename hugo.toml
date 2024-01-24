@@ -14,8 +14,8 @@ theme = 'Mainroad-reddin'
     twitter_cards = true
     googleFontsLink = "https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" # Load Google Fonts
 
-[Params.logo]
-    image = "img/jwt_1.png"
+#[Params.logo]
+#    image = "img/jwt_1.png"
 
 [Params.style.vars]
   highlightColor = "#666666" # Override highlight color
