@@ -12,6 +12,6 @@ You can add geojson in the markdown of gists to easily add a quick unstyled map.
 
 Hugo has a built in `gist` [shortcode](https://gohugo.io/content-management/shortcodes/) which makes this easier:
 
-{{gist user willreddin}}
+{{< gist user willreddin >}}
 
 
