@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/posts/adding-maps/</loc>
+    <lastmod>2024-01-24T14:29:24+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hello-world/</loc>
+    <lastmod>2024-01-24T14:29:24+00:00</lastmod>
+  </url><url>
+    <loc>/tags/maps/</loc>
+    <lastmod>2024-01-24T14:29:24+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-01-24T14:29:24+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-01-24T14:29:24+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-01-24T14:29:24+00:00</lastmod>
+  </url><url>
+    <loc>/posts/adding-mermaid-diagrams/</loc>
+    <lastmod>2024-01-20T20:24:18+00:00</lastmod>
+  </url><url>
+    <loc>/posts/my-first-post/</loc>
+    <lastmod>2024-01-18T11:46:24+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url>
+</urlset>

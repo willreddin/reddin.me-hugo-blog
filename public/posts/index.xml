@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Will Reddin</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Will Reddin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2024 14:29:24 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding maps from github gists</title>
+      <link>/posts/adding-maps/</link>
+      <pubDate>Wed, 24 Jan 2024 14:29:24 +0000</pubDate>
+      <guid>/posts/adding-maps/</guid>
+      <description>Creating a map in a Gtihub gist using geojson data You can add geojson in the markdown of gists to easily add a quick unstyled map. Once you&amp;rsquo;ve done that you can embed it in the page using a shortcode I added to layouts/shortcodes in the markdown:&#xA;Hugo has a built in gist shortcode which makes this easier:</description>
+    </item>
+    <item>
+      <title>Adding Mermaid and other Diagrams</title>
+      <link>/posts/adding-mermaid-diagrams/</link>
+      <pubDate>Sat, 20 Jan 2024 20:24:18 +0000</pubDate>
+      <guid>/posts/adding-mermaid-diagrams/</guid>
+      <description>Mermaid Using this help post I&amp;rsquo;ll try and add mermaid diagrams to this blog.&#xA;Themes can also be set for the diagrams by adding in %%{init: {&#39;theme&#39;:&#39;[theme.name]&#39;}}%% to the code block&#xA;%%{init: {&#39;theme&#39;:&#39;forest&#39;}}%% sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you? loop Healthcheck John-&gt;&gt;John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John--&gt;&gt;Alice: Great! John-&gt;&gt;Bob: How about you? Bob--&gt;&gt;John: Jolly good! %%{init: {&#39;theme&#39;:&#39;dark&#39;}}%% sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you?</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Thu, 18 Jan 2024 11:46:24 +0000</pubDate>
+      <guid>/posts/my-first-post/</guid>
+      <description>Just a first post on the new blog It&amp;rsquo;s a hugo site. Nothing fancy!</description>
+    </item>
+  </channel>
+</rss>
