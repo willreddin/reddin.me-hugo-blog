@@ -1,4 +1,9 @@
-+++ title = 'Using an old laptop to create a Nextcloud and Plex server' date = 2024-03-12T14:30:00Z draft = false tags = ['hello-world', 'nextcloud', 'plex', 'docker', 'linux'] +++
++++ 
+title = 'Using an old laptop to create a Nextcloud and Plex server' 
+date = 2024-03-12T14:30:00Z 
+draft = false 
+tags = ['hello-world', 'nextcloud', 'plex', 'docker', 'linux'] 
++++
 
 [Nextcloud](https://nextcloud.com/) is an open source cloud storage and collaboration product. It allows access to files on the go from all kinds of devices and works across Linux, Windows, Android and more. I want to use this to host a media library while also allowing an easy way to upload files from lots of different devices.  
 
