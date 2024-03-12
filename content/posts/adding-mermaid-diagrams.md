@@ -32,24 +32,17 @@ sequenceDiagram
 [GoAT](https://github.com/bep/goat) diagrams are supported natively, which is great!
 
 ```goat
- ┌────────────────────┐               ┌────────────────────┐
- │                    │               │                    │
- │                    │               │                    │
- │   Box 1            ├───────────────┤     Box 2          │
- │                    │               │                    │
- │                    │               │                    │
- └───────▲────────────┘               └──────────┬─────────┘
-         │                                       │
-         │                                       │
-         │                                       │
-         │                                       │
-┌────────┴────────────┐               ┌──────────▼─────────┐
-│                     │               │                    │
-│                     │               │                    │
-│    Box 3            │               │    Box 4           │
-│                     ◄───────────────┤                    │
-│                     │               │                    │
-└─────────────────────┘               └────────────────────┘
++---------+    +---------+
+|  Box 1  +---->  Box 2  |
+|         |    |         |
++---^-----+    +----+----+
+    |               |
+    |               |
+    |               |
++---+-----+    +----v----+
+| Box 3   |    | Box 4   |
+|         <----+         |
++---------+    +---------+
 ```
 To generate this I used [asciiflow](https://asciiflow.com/#/) to create the diagram, then you can just paste it into a `goat` code block. 
 
@@ -60,7 +53,9 @@ This [tool](https://arthursonzogni.com/Diagon/#Math) allows you to create all ki
 | | = -------------
 \k/   k! . (n - k)!
 
-```
+```   
+
+
 
 This tool also allows you to create graph diagrams in ascii format like the example 
 
