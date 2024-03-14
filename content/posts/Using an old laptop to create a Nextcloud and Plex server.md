@@ -14,7 +14,7 @@ I also want to use Nextcloud to backup other cloud services that I use, includin
 ## Prepping the laptop to run as a server
 ### Install ubunutu server, change default behaviours and mount the drive
 First, after doing a fresh install of [Ubuntu server 22.04](https://ubuntu.com/download/server#downloads) I need to change the behaviouf of the laptop to be more server-esque. As it will be sitting closed on a desk, the sleep, suspend and laptop close switch behavior needs to be modified. 
-```
+```bash
 sudo apt update -y && sudo apt upgrade -y
 
 # mask sleep, suspend and hibernate so laptop won't shutdown and stop serving
@@ -33,7 +33,7 @@ Once again from the router admin settings. Port forwarding needs to be set. [Noi
 For [Nextcloud](https://help.nextcloud.com/t/what-are-ports-80-443-3478-8080-8443-in-nc-aio-used-for/172557#:~:text=Additionally%2C%20ports%2080%2C%208080%2C,used%20for%20the%20Apache%20server.) Ports 80 and 8443 need to be open. Port 80 is used for the interface and 8443 is used for the talk service. For [Plex](https://support.plex.tv/articles/201543147-what-network-ports-do-i-need-to-allow-through-my-firewall/)32400 is used for communication and is enough to get started with. 
 
 Ubuntu server comes with [ufw](https://wiki.ubuntu.com/UncomplicatedFirewall) and is easy to use on the command line to open up these ports. 
-```
+```bash
 #enable ufw, allow ssh and restart the service
 sudo ufw enable
 sudo ufw allow ssh
@@ -48,7 +48,7 @@ sudo systemctl restart ssh
 
 ### Install docker
 Simply follow the latest docker docs to install docker. Docker was also removed from snap packages as this was causing an issue later in the install. 
-```
+```bash
 # Add Docker's official GPG key
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -77,7 +77,7 @@ Follow noip's configuration guide for setting up the dynamic dns client on the l
 Nextcloud has some good docs for installing their [all-in-one](https://github.com/nextcloud/all-in-one) (aio) docker container. It saves alot of configuring from a fresh install. 
 
 Once it is installed go through the steps to qualify the domain, though this can be skipped using `-e SKIP_DOMAIN_VALIDATION=true` as this can cause issues I have found. 
-```
+```bash
 #Install nextcloud-aio using docker
 sudo docker run --init --sig-proxy=false --name nextcloud-aio-mastercontainer --restart always --publish 80:80 --publish 8080:8080 --publish 8443:8443 --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config --volume /var/run/docker.sock:/var/run/docker.sock:ro nextcloud/all-in-one:latest
 ```
@@ -85,7 +85,7 @@ sudo docker run --init --sig-proxy=false --name nextcloud-aio-mastercontainer --
 ### Install Plex
 I used the docker method of installing [Plex](https://pimylifeup.com/plex-docker/) so I can easily manage that along with nextcloud. 
 
-```
+```bash
 #Create a compose.yml file to use with docker compose
 vi /opt/stacks/plex/compose.yml
 ```
@@ -112,7 +112,7 @@ services:
      - /dev/dri:/dev/dri
 ```
 
-```
+```bash
 # Run docker compose from /opt/stacks/plex/
 cd /opt/stacks/plex/
 docker compose up -d
